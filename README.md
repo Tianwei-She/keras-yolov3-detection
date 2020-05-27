@@ -1,7 +1,10 @@
-# YOLOv3-detection
+# YOLOv3-Detection
 
 This repo implements object detection on one single image or one video, using a pretrained YOLOv3 model. The output is saved in an image/video file with detected bounding boxes plotted.
 
+The code are mostly copied from
+* [qqwweee/keras-yolo3](https://github.com/qqwweee/keras-yolo3)
+* [experiencor/keras-yolo3](https://github.com/experiencor/keras-yolo3)
 
 ```
 wget https://pjreddie.com/media/files/yolov3.weights -P PATH/TO/WEIGHTS_FOLDER
