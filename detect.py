@@ -310,7 +310,6 @@ def detect_image(image_pil, darknet, obj_thresh=0.4, nms_thresh=0.45, net_h=416,
 
     return image_detect
 
-import cv2
 
 def detect_video(video_path, output_path, darknet, obj_thresh=0.4, nms_thresh=0.45, net_h=416, net_w=416, anchors=anchors, labels=labels):
     vid = cv2.VideoCapture(video_path)
