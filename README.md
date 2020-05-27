@@ -2,7 +2,7 @@
 
 This repo implements object detection on one single image or one video, using a pretrained YOLOv3 model. The output is saved in an image/video file with detected bounding boxes plotted.
 
-The code are mostly copied from
+The code is mostly copied from the following 2 repos with minor modifications
 * [qqwweee/keras-yolo3](https://github.com/qqwweee/keras-yolo3)
 * [experiencor/keras-yolo3](https://github.com/experiencor/keras-yolo3)
 
